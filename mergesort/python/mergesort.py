@@ -1,3 +1,9 @@
+from datetime import datetime
+
+
+today = datetime.today()
+print(today)
+
 data = [89, 34, 23, 78, 67, 100, 66, 29, 79, 55, 78, 88, 92, 96, 96, 23]
 
 def merge(left, right):
